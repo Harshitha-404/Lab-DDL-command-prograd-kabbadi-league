@@ -124,9 +124,19 @@ foreign key(second_innings_id) references innings(id)
 
 
 -- 13. **Drop table city**
-
+drop table city cascade constraints;
 -- 14. **Drop table innings**
-
+drop table innings cascade constraints;
 -- 15. **Drop table skill**
-
+drop table skill cascade constraints;
 -- 16. **Drop table extra_type**
+drop table extra_type cascade constraints;
+
+
+
+
+
+
+
+
+
